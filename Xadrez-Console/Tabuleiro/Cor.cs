@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Xadrez_Console.Tabuleiro
+namespace tabuleiro
 {
-    class Cor
+    enum Cor
     {
+        Branca,
+        Presta,
+        Vermelho, 
+        Azul
     }
 }
